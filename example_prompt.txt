@@ -1,0 +1,1 @@
+Refactor user service: rename getUser to fetchUser, remove unused param, and add cache layer
