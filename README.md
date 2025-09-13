@@ -1,31 +1,44 @@
-# AI Git Commit Generator (Next.js + TypeScript)
+# AI Project
 
-**What this project does (MVP):**
-- Lets a user paste code changes or a description, then uses the OpenAI API to generate a clean Conventional Commit message.
-- Optional: code includes a reference implementation for pushing the message to a GitHub repo (requires a personal access token and configuration).
+A web-based AI application that leverages AI APIs to provide intelligent functionalities. Deployed live on Vercel.
 
-## Quick start (local)
-1. Install dependencies:
-   ```
-   npm install
-   ```
-2. Copy `.env.local.example` to `.env.local` and set `OPENAI_API_KEY`.
-3. Run dev:
-   ```
-   npm run dev
-   ```
-4. Open http://localhost:3000
+---
 
-## Deploy to Vercel
-- Connect your repo to Vercel and set environment variables (`OPENAI_API_KEY`, optional `GITHUB_TOKEN`).
+## **Live Demo**
 
-## Files of interest
-- `pages/index.tsx` - frontend UI
-- `pages/api/generate-commit.ts` - API route that calls OpenAI
-- `pages/api/push-commit.ts` - OPTIONAL: example GitHub push (uses Octokit, commented)
+- Deployment 1: [ai-pnu90puc7-bhavethra2401-1876s-projects.vercel.app](https://ai-pnu90puc7-bhavethra2401-1876s-projects.vercel.app)  
+- Deployment 2: [ai-git-sepia.vercel.app](https://ai-git-sepia.vercel.app)
 
-## Notes
-- This starter uses a simple prompt engineering approach. Tweak the prompt in `generate-commit.ts` for different styles.
-- The GitHub push route is intentionally provided as an example. Pushing commits programmatically requires careful handling of repo state, branches, and access tokens.
+---
 
-Good luck! Record a 20-30s demo: paste a diff or brief description → generate commit → (optionally) push to GitHub.
+## **Features**
+
+- AI-powered functionality (e.g., chat, predictions, code generation)
+- Secure handling of API keys using environment variables
+- Responsive UI for web browsers
+- Fast and lightweight deployment via Vercel
+
+---
+
+## **Technologies Used**
+
+- **Frontend:** Streamlit
+- **Backend:** Python
+- **AI Integration:** OpenAI API
+- **Deployment:** Vercel
+
+---
+
+## **Getting Started**
+
+### **Prerequisites**
+
+- Python >= 3.9
+- Git
+
+### **Installation**
+
+1. Clone the repository:
+```bash
+git clone https://github.com/username/repo.git
+cd repo
